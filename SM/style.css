@@ -15,16 +15,12 @@
     /*font-size: 100%;*/
 }
 body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    
     background: #222;
 }
 
 ul{
-
-    position: relative;
+    margin-top: 20%;
     display: flex;
     transform-style: preserve-3d;
     align-items: center;
