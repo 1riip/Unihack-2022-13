@@ -1,0 +1,209 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+#title{
+    text-align: center;
+    color: #e0ad9e;
+}
+#description{
+    text-align: center;
+    color: #e0ad9e;
+}
+#div-main{
+    
+    border-radius: 15px;
+    max-width: fit-content;
+    margin:auto;
+}
+
+#name{
+    position: relative;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px dotted #e0ad9e;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#dropdown{
+    position: relative;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px dotted #e0ad9e;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#name-label{
+    position: relative;
+    text-align: justify;
+    margin-left: 10px;
+    top: 10px;
+    color: #e0ad9e;
+}
+
+#email-label{
+    position: relative;
+    text-align: justify;
+    margin-left: 10px;
+    top: 10px;
+    color: #e0ad9e;
+}
+
+#number-label{
+    position: relative;
+    text-align: justify;
+    margin-left: 10px;
+    top: 10px;
+    color: #e0ad9e;
+}
+
+#dropdown-label{
+    position: relative;
+    text-align: justify;
+    margin-left: 10px;
+    top: 10px;
+    color: #e0ad9e;
+}
+
+#email{
+    position: relative;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px dotted #e0ad9e;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#number{
+    position: relative;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px dotted #e0ad9e;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#name-box{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.61);
+    height: 80px;
+    width: 600px;
+    border-radius: 10px;
+    
+}
+
+#email-box{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.61);
+    height: 80px;
+    width: 600px;
+    border-radius: 10px;
+    top: 10px;
+    
+}
+
+#number-box{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.61);
+    height: 80px;
+    width: 600px;
+    border-radius: 10px;
+    top: 20px;
+    
+}
+
+#dropdown-box{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.61);
+    height: 80px;
+    width: 600px;
+    border-radius: 10px;
+    top: 30px;
+    
+}
+
+#block-container{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.61);
+    height: 175px;
+    width: 600px;
+    border-radius: 10px;
+    top: 40px;
+    margin: auto;
+    
+    
+}
+
+#checkbox-box, #radio-box{
+   display: inline-block;
+   padding-left: 10px;
+   padding-right: 10px;
+    
+}
+
+#txt-area{
+    position: relative;
+    margin: auto;
+    top: 50px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-color: rgba(0, 0, 0, 0.61);
+    font-family: 'Poppins', sans-serif;
+}
+
+#submit{
+    position: relative;
+    top: 60px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 40px;
+    border-color: #e0ad9e;
+    background-color: #e0ad9e;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#input-box{
+    position: relative;
+    margin: auto;
+}
+
+.options{
+    color: #e0ad9e;
+}
+
+
+
+h3{
+    text-align: center;
+    font-size: medium;
+}
+
+
+.bg{
+   width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}

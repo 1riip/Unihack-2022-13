@@ -1,0 +1,91 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="STYLE.css">
+    <video  class="BG" autoplay loop muted ><source src="BG.m4v"></video>
+    <title></title>
+</head>
+<body>
+    <br>
+    <h1 id="title">Application form</h1> 
+    <p id="description">Please tell us more about yourself!</p>
+    <main>
+        <div id="div-main">
+            
+           
+            <form id="survey-form">
+                <div id="name-box" class="box">
+                <label for="name" id="name-label">Name</label><br>
+                <input type="text" id="name" placeholder="Johnny" required><br>
+               </div>
+               <div id="email-box" class="box">
+                <label for="email" id="email-label">Email</label><br>
+                <input type="email" id="email" placeholder="johnnyboy@mail.com" required><br>
+                </div>
+                <div id="number-box" class="box">
+                <label for="number" id="number-label">Age</label><br>
+                <input type="number" id="number" min="10" max="200" placeholder="18" required><br><br>
+                </div>
+                    
+                    <div id="dropdown-box">
+                <label for="dropdown" id="dropdown-label">Choose:</label> <br>
+                
+
+                <select name="options" id="dropdown">
+                    <option value="student" class="options">Student</option>
+                    <option value="post-graduate" class="options">Post graduate</option>
+                    <option value="working" class="options">Working</option>
+                    <option value="jobless" class="options">Jobless</option>
+                </select><br><br>
+                    </div>
+                    <div id="block-container">
+                    <div id="radio-box">
+                        <h3 class="options">Status: </h3>
+                    <input type="radio" name="radio-group" id="radio1" value="working">
+                    <label for="radio1" class="options">Working</label><br>
+                    <input type="radio" name="radio-group" id="radio2" value="not-working">
+                    <label for="radio2" class="options">Not Working</label><br>
+                    <input type="radio" name="radio-group" id="radio3" value="want-to-work">
+                    <label for="radio3" class="options">Want to work</label><br>
+                    <input type="radio" name="radio-group" id="radio4" value="job-hunting">
+                    <label for="radio4" class="options">Job hunting</label><br><br>
+                    </div>
+
+                    <div id="checkbox-box">
+                        <h3 class="options">When do you want to start?</h3>
+                    <input type="checkbox" name="married" id="married" value="married">
+                    <label for="married" class="options">Immediately</label><br>
+                    <input type="checkbox" name="not-married" id="not-married" value="not-married">
+                    <label for="not-married" class="options">Near future</label><br>
+                    <input type="checkbox" name="married" id="married" value="married">
+                    <label for="married" class="options">Next month</label><br>
+                    <input type="checkbox" name="not-married" id="not-married" value="not-married">
+                    <label for="not-married" class="options">Summer job</label><br><br>
+                    </div>
+                    </div>
+                    <textarea name="textarea" id="txt-area" cols="90" rows="10" class="options" placeholder=" What do you need your card for?"></textarea>
+                    <br>
+                    <div id="input-box">
+                        <div id="horizontal-center">
+                    <input type="submit" value="Submit" id="submit">
+                    </div>
+                    </div>
+                <br><br><br><br><br>
+                
+            
+            </form>
+
+        </div>
+    </main>
+</body>
+
+</html>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+
+
+</body>
