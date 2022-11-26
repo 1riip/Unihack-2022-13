@@ -3,35 +3,28 @@
 	height : 100%;
 	  object-fit: cover;
   position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
+
   z-index: -1;
 }
 *{
-    margin: 0;
     padding: 0;
-    /*font-size: 100%;*/
+margin:0;    /*font-size: 100%;*/
 }
 body{
     display: flex;
     justify-content: center;
     align-items: center;
-    align-content: center;
-    align-self: center;
-    box-align: center;
     min-height: 100vh;
     background: #222;
+
 
 }
 
 ul{
-left:0%;
-    position: relative;
+
+    position: absolute;
     display: flex;
     transform-style: preserve-3d;
-    
     justify-content: center !important;
     /*transform: rotate(-25deg) skew(25deg);*/
 }
@@ -145,10 +138,12 @@ ul li:nth-child(5):hover span{
 }
 #linked{
     font-family: sans-serif;
-    position:relative;
+    position:absolute;
     align-items: center;
-    top: 50px;
-    right:84px;
+    justify-content: center;
+    top: 70%px;
+    right:0px;
+    left:50%;
     animation-name:animation_test;
     animation-duration: 1s;
 
