@@ -95,3 +95,29 @@
   margin-top: 29em;
   margin-left: 3em;
 }
+
+#myVideo
+{
+  position: fixed;
+  left: 15vw;
+  bottom: 0;
+  height: 100vh;
+  border-radius: 1rem;
+
+}
+
+.card-holder
+{
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 5;
+  width: 100px;
+  height: 100px;
+  right: 0;
+  position: absolute;
+  width: 20em;
+  height: 34em;
+  background: #9D6161;
+  border-radius: 1rem;
+  margin-top: 5em;
+}
