@@ -106,6 +106,7 @@ ul li:nth-child(5):hover span{
 }
 .facebook{
 	position: relative;
+
   width: 60px;
   height: 60px;
   border: 3px solid #1771e6;
@@ -133,4 +134,8 @@ ul li:nth-child(5):hover span{
   width: 60px;
   height: 60px;
   border: 3px solid aliceblue;
+}
+p{
+    position:relative;
+    align-items: center;
 }
