@@ -7,7 +7,6 @@
   <li>Adrian Badea</li>
   <li>Andrei Berendea</li>
   <li>Daniel Turuta</li>
-  <li>Paul Alexandru Brisc</li>
   <li>Viorel Soitu</li>
 </ul> </h2>
 
