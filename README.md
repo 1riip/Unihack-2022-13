@@ -1,13 +1,15 @@
 # Unihack 2022 entry
-<img src="https://unihack.eu/assets/images/og/og-image4.png" width="280"/>
-<h2> Team 13: <ul>
-  <li>nume1</li>
-  <li>nume2</li>
-  <li>nume3</li>
-  <li>nume4</li>
-  <li>nume5</li>
+
+<img src="https://user-images.githubusercontent.com/32220246/204088323-fee9d3f0-788e-4ce1-b505-5aa9e6431259.gif"/>
+
+<h2> Team PMP: <ul>
+
+  <li>Adrian Badea</li>
+  <li>Andrei Berendea</li>
+  <li>Daniel Turuta</li>
+  <li>Paul Alexandru Brisc</li>
+  <li>Viorel Soitu</li>
 </ul> </h2>
-<h1> App documentation (version 1.0) </h1>
-//general info
-<h2> Usage  </h2>
-//functions
+
+
+
