@@ -28,6 +28,7 @@ ul{
     display: flex;
     transform-style: preserve-3d;
     align-items: center;
+    justify-content: center !important;
 
     /*transform: rotate(-25deg) skew(25deg);*/
 }
@@ -38,7 +39,7 @@ ul li{
     list-style: none;
     width: 60px;
     height: 60px;
-    margin: 0 20px;
+    margin: 20px;
     align-items: center;
 }
 
@@ -51,7 +52,6 @@ ul li span{
     align-items: center;
     display: flex !important;
     justify-content: center;
-    align-items: center;
     background: #333;
     color: rgba(255,255,255,0.2);
     font-size: 30px !important;
@@ -111,7 +111,7 @@ ul li:nth-child(5):hover span{
 }
 .facebook{
 	position: relative;
-
+    align-items: center;
   width: 60px;
   height: 60px;
   border: 3px solid #1771e6;
