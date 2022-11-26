@@ -59,3 +59,39 @@
   padding-top: 1.5ex;
   padding-bottom: 1.5ex;
 }
+
+.rectangle
+{
+  background-color: #9D6161;
+  position: absolute;
+  width: 760px;
+  height: 160px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 1rem;
+  margin-top: 5em;
+  margin-left: 3em;
+}
+
+.rectangle2
+{
+  background-color: #9D6161;
+  position: absolute;
+  width: 760px;
+  height: 160px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 1rem;
+  margin-top: 17em;
+  margin-left: 3em;
+}
+
+.rectangle3
+{
+  background-color: #9D6161;
+  position: absolute;
+  width: 760px;
+  height: 160px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 1rem;
+  margin-top: 29em;
+  margin-left: 3em;
+}
