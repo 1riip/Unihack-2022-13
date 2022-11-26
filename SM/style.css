@@ -18,24 +18,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    align-self: center;
+    box-align: center;
     min-height: 100vh;
     background: #222;
+
 }
 
 ul{
-
+left:0%;
     position: relative;
     display: flex;
     transform-style: preserve-3d;
-    align-items: center;
+    
     justify-content: center !important;
-
     /*transform: rotate(-25deg) skew(25deg);*/
 }
 
 ul li{
     transform: rotate(-25deg) skew(25deg);
     position: relative;
+    align-content: center;
     list-style: none;
     width: 60px;
     height: 60px;
