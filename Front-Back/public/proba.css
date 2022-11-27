@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar{
+    position: fixed;
+    height: 100vh;
+    width: 21vw;
+    background-color: rgba(248,191,28,255);
+}
+
+.profile{
+    margin-bottom: 5vh;
+}
+
+.content{
+    position: fixed;
+    height: 100vh;
+    width: 85vw;
+    margin-left: 15vw;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-around;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.btn{
+    height: 2.5rem;
+    width: 15vw;
+    background-color: transparent;
+    border-style: none;
+    font-size: large;
+    color: white;
+}
+
+.btn:hover{
+    color:black;
+    cursor: pointer;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.mone{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mon{
+    height: 20vh;
+    width: 35vw;
+    background-color: rgba(248,191,28,255);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.moncat{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.montxt{
+    width: 80%;
+    text-align: justify;
+}
+
+.cards{
+    height:80vh;
+    width: 25vw;
+    background-color: rgba(248,191,28,255);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card{
+    width: 80%;
+    margin-top: 3rem;
+    border-radius: 1rem;
+}
+
+.trans{
+    margin-top: 3rem;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.transaction{
+    width: 80%;
+}
+
+.trnbtn{
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.trndt{
+    display: flex;
+    justify-content: space-between;
+}
