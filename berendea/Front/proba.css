@@ -84,4 +84,14 @@ span{
     width: 25vw;
     background-color: rgba(248,191,28,255);
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.card-bancar{
+    width: 80%;
+    margin-top: 3rem;
+    border-radius: 1rem;
 }
